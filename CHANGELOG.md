@@ -11,6 +11,10 @@ in [ROADMAP.md](ROADMAP.md).
 
 ## Unreleased
 
+### Fixed
+
+- The extensions button at the foot of the column sits where it looks centred between the space's icon and Bookmarks. The puzzle piece was centred by its outline, but its weight is in its body, on the left, so it looked shifted toward the space's icon; it now stands a point to the right.
+
 ### Added
 
 - Arc-style tab popup, off unless you turn it on in Settings › Spaces & Pins › Opening and starting, with the new tab in a floating field: as you type in ⌘T's field, the open tabs that match come first, then your pins, then the places a new tab would go, and the best match is picked as you type: an open tab, else a pin, else the place from history the field completes to. Return switches to it instead of opening the page again, and the field keeps what you typed, with the rest of the tab's address after it when you typed its start. ↑ lets go of the tab, and Return opens what you typed.
